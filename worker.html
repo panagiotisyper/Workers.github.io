@@ -1,0 +1,41 @@
+<html>
+
+    <head>
+        <title>SITE--TITLE</title>
+        <link href="style.css" rel="stylesheet" type="text/css"> 
+    </head>
+    <body>
+        <header>
+            
+            <div class="row">
+                <div class="logo">
+                <img src="logo.png">
+                </div>
+            <ul class="main-nav">
+                <li class="active"><a href=""> HOME </a></li>    
+                <li><a href="categories.html"> CATEGORIES </a></li>
+                <li><a href="worker.html"> BUY WORKER </a></li>
+                <li><a href=""> JOIN US </a></li>
+            </ul>
+            
+            </div>
+        
+        </header>
+        
+       <div class="contact-form">
+           <form id="contact-form" method="post" action="contact-form-handler.php">
+            <input name="name" type="text" class="form-control" placeholder="Your name" required>
+            <br>
+            <input name="email" type="email" class="form-control" placeholder="Your email" required>
+            <br>
+                <textarea name="massage" class="form-control" placeholder="Massage" row="4" required></textarea>
+            <br>
+                 <input type="submit" class="form-control submit" value="SEND EMAIL">
+               
+           </form>
+    
+        </div>
+        
+    </body>
+    
+</html>
